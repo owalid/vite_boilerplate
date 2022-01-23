@@ -1,0 +1,117 @@
+
+.d-flex {
+  display: flex;
+}
+
+.d-iflex {
+  display: inline-flex;
+}
+
+/* Flex direction */
+.fdir--row  {
+  flex-direction: row;
+} 
+.fdir--row-rev {
+  flex-direction: row-reverse;
+}
+.fdir--column {
+  flex-direction: column;
+}
+.fdir--column-rev {
+  flex-direction: column-reverse;
+}
+
+/* Justify content */
+.jus--flex-end {
+  justify-content: flex-end;
+}
+.jus--flex-start {
+  justify-content: flex-start;
+}
+.jus--center {
+  justify-content: center;
+}
+.jus--space-ar {
+  justify-content: space-around;
+}
+.jus--space-bet {
+  justify-content: space-between;
+}
+
+/* Align self */
+.al-self--auto  {
+  align-self: auto;
+}
+.al-self--fstart {
+  align-self: flex-start;
+}
+.al-self--center {
+  align-self: center;
+}
+.al-self--fend {
+  align-self: flex-end;
+}
+.al-self--str {
+  align-self: stretch;
+}
+.al-self--base {
+  align-self: baseline
+}
+
+/* Align items */
+.al-items--fs {
+  align-items: flex-start;
+}
+.al-items--center {
+  align-items: center;
+}
+.al-items--fe {
+  align-items: flex-end;
+}
+.al-items--s {
+  align-items: stretch;
+}
+.al-items--b {
+  align-items: baseline;
+}
+
+
+/* Flex wrap */
+.flex--no-wrp {
+  flex-wrap: nowrap;
+}
+.flex--wrp {
+  flex-wrap: wrap;
+}
+.flex--wrp-rev {
+  flex-wrap: wrap-reverse;
+}
+
+/* Flex grow */
+.fgrow-- {
+  &0 { flex-grow: 0; }
+  &1 { flex-grow: 1; }
+  &2 { flex-grow: 2; }
+  &3 { flex-grow: 3; }
+  &4 { flex-grow: 4; }
+  &5 { flex-grow: 5; }
+}
+
+/* Flex shrink */
+.fshrink-- {
+  &0 { flex-shrink: 0; }
+  &1 { flex-shrink: 1; }
+  &2 { flex-shrink: 2; }
+  &3 { flex-shrink: 3; }
+  &4 { flex-shrink: 4; }
+  &5 { flex-shrink: 5; }
+}
+
+/* Flex basis */
+.fbasis--a {
+  flex-basis: auto;
+}
+.fbasis--0 {
+  flex-basis: 0;
+}
+
